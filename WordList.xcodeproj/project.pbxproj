@@ -13,6 +13,11 @@
 		AE2448FB246D9A2B00A00CEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE2448F9246D9A2B00A00CEB /* Main.storyboard */; };
 		AE2448FD246D9A2F00A00CEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE2448FC246D9A2F00A00CEB /* Assets.xcassets */; };
 		AE244900246D9A2F00A00CEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE2448FE246D9A2F00A00CEB /* LaunchScreen.storyboard */; };
+		AEECF1A9246DB92300E345A0 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEECF1A8246DB92300E345A0 /* QuestionViewController.swift */; };
+		AEECF1AB246DB96E00E345A0 /* FinishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEECF1AA246DB96E00E345A0 /* FinishViewController.swift */; };
+		AEECF1AD246DB98A00E345A0 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEECF1AC246DB98A00E345A0 /* AddViewController.swift */; };
+		AEECF1AF246DB9CD00E345A0 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEECF1AE246DB9CD00E345A0 /* ListTableViewController.swift */; };
+		AEECF1B1246DD92400E345A0 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEECF1B0246DD92400E345A0 /* ListTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		AE2448FC246D9A2F00A00CEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE2448FF246D9A2F00A00CEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE244901246D9A2F00A00CEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEECF1A8246DB92300E345A0 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		AEECF1AA246DB96E00E345A0 /* FinishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishViewController.swift; sourceTree = "<group>"; };
+		AEECF1AC246DB98A00E345A0 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		AEECF1AE246DB9CD00E345A0 /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		AEECF1B0246DD92400E345A0 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,11 @@
 				AE2448FC246D9A2F00A00CEB /* Assets.xcassets */,
 				AE2448FE246D9A2F00A00CEB /* LaunchScreen.storyboard */,
 				AE244901246D9A2F00A00CEB /* Info.plist */,
+				AEECF1A8246DB92300E345A0 /* QuestionViewController.swift */,
+				AEECF1AA246DB96E00E345A0 /* FinishViewController.swift */,
+				AEECF1AC246DB98A00E345A0 /* AddViewController.swift */,
+				AEECF1AE246DB9CD00E345A0 /* ListTableViewController.swift */,
+				AEECF1B0246DD92400E345A0 /* ListTableViewCell.swift */,
 			);
 			path = WordList;
 			sourceTree = "<group>";
@@ -138,9 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEECF1AB246DB96E00E345A0 /* FinishViewController.swift in Sources */,
+				AEECF1B1246DD92400E345A0 /* ListTableViewCell.swift in Sources */,
 				AE2448F8246D9A2B00A00CEB /* ViewController.swift in Sources */,
+				AEECF1AD246DB98A00E345A0 /* AddViewController.swift in Sources */,
 				AE2448F4246D9A2B00A00CEB /* AppDelegate.swift in Sources */,
+				AEECF1A9246DB92300E345A0 /* QuestionViewController.swift in Sources */,
 				AE2448F6246D9A2B00A00CEB /* SceneDelegate.swift in Sources */,
+				AEECF1AF246DB9CD00E345A0 /* ListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
